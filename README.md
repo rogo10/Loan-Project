@@ -5,7 +5,7 @@ Here is where we decsribe all of the files and its contents.
 
 anon.xlsx
 
-  -original anonomyzed bank dataset
+    -original anonomyzed bank dataset
   
 metrics.xlsx
   
