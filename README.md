@@ -14,4 +14,5 @@ metrics.xlsx
 EDA of anon.ipynb (Incomplete)
 
   -small amount of EDA on bank dataset
+  
   -mostly looking at balance, days past due, and credit risk code
