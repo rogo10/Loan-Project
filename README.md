@@ -16,3 +16,7 @@ Here is where we decsribe all of the files and its contents.
         -small amount of EDA on bank dataset
   
         -mostly looking at balance, days past due, and credit risk code
+
+    Merge.ipynb (Incomplete)
+        -merge of metrics with anon
+        -errors
