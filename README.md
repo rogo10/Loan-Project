@@ -12,7 +12,7 @@ Here is where we decsribe all of the files and its contents.
   
         -original dataset containing values regarding global economy status
 
-    EDA of anon.ipynb (Incomplete)
+    EDA of anon.ipynb (Incomplete - currently uses anon1)
 
         -small amount of EDA on bank dataset
   
@@ -21,3 +21,9 @@ Here is where we decsribe all of the files and its contents.
     Merge.ipynb (Incomplete)
         -merge of metrics with anon
         -errors
+        
+    national.xlsx
+    
+        -Sheet 1 of Metrics.xlsx with modifications:
+            1) Took out dates past Q4 2021
+            2) Inserted real data in for Q1,Q2 2020 (some are missing)
