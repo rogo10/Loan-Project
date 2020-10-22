@@ -11,6 +11,9 @@ Here is where we decsribe all of the files and its contents.
     metrics.xlsx
   
         -original dataset containing values regarding global economy status
+        -updated: according to https://www.federalreserve.gov/publications/2020-september-supervisory-scenarios.htm
+            - 2020 Q1&Q2 now Historical 
+            -New values for future projections 
 
     EDA of anon.ipynb (Incomplete - currently uses anon1)
 
