@@ -6,6 +6,7 @@ Here is where we decsribe all of the files and its contents.
     anon.xlsx
 
         -original anonomyzed bank dataset
+        -added column which converts date to quarter year string
   
     metrics.xlsx
   
