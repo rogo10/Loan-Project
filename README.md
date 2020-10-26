@@ -14,6 +14,7 @@ Here is where we decsribe all of the files and its contents.
         -updated: according to https://www.federalreserve.gov/publications/2020-september-supervisory-scenarios.htm
             - 2020 Q1&Q2 now Historical 
             -New values for future projections 
+            -updated 26Oct20
 
     EDA of anon.ipynb (Incomplete - currently uses anon1)
 
