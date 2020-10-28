@@ -22,12 +22,15 @@ Here is where we decsribe all of the files and its contents.
   
         -mostly looking at balance, days past due, and credit risk code
 
-    Merge.ipynb (Incomplete)
-        -merge of metrics with anon
-        -errors
+    Merge.ipynb ()
+        -merge of metrics with anon (bank data)
+        -results in final.csv
+    
         
     national.xlsx
     
         -Sheet 1 of Metrics.xlsx with modifications:
             1) Took out dates past Q4 2021
             2) Inserted real data in for Q1,Q2 2020 (some are missing)
+    final.csv
+        - Fails to upload due to size
