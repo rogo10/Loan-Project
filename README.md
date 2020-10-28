@@ -34,3 +34,17 @@ Here is where we decsribe all of the files and its contents.
             2) Inserted real data in for Q1,Q2 2020 (some are missing)
     final.csv
         - Fails to upload due to size
+        
+    Train Test Split Using Function.ipynb
+    
+        - Creates a train-test-split on final.csv
+        - Scales numeric data
+        - One-hot encodes columns of choice
+        - Uses ttss.py (Have ttss.py in the same directory as this notebook)
+    
+    ttss.py
+        - Script that has helper function
+            - Does a train-test-split
+            - Scales numeric data
+            - One hot encodes columns, if columns are given
+            - Returns a finalized x_train, x_test, y_train, and y_test
