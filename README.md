@@ -48,3 +48,7 @@ Here is where we decsribe all of the files and its contents.
             - Scales numeric data
             - One hot encodes columns, if columns are given
             - Returns a finalized x_train, x_test, y_train, and y_test
+     
+    logistic regression
+            -addition to train test split notebook
+            -runs logistic regression
