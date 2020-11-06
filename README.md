@@ -42,7 +42,7 @@ Here is where we decsribe all of the files and its contents.
         - One-hot encodes columns of choice
         - Uses ttss.py (Have ttss.py in the same directory as this notebook)
     
-    ttss.py
+    ttss.py (deprecated)
         - Script that has helper function
             - Does a train-test-split
             - Scales numeric data
@@ -52,3 +52,16 @@ Here is where we decsribe all of the files and its contents.
     logistic regression
             -addition to train test split notebook
             -runs logistic regression
+    
+    helpers.py
+            - Script with helper functions
+            - Added when more than one helper function was needed
+            - Currently has:
+                - tts_scale
+                    - Does a train-test-split
+                    - Scales numeric data
+                    - One hot encodes columns, if columns are given
+                    - Returns a finalized x_train, x_test, y_train, and y_test
+                - n_split
+                    - splits dataframe into n splits
+                    - Returns list of n lists occupied by indeces to split on
