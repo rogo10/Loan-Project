@@ -45,7 +45,8 @@ Here is where we decsribe all of the files and its contents.
     logistic regression
             -addition to train test split notebook
             -runs logistic regression
-    
+    logistic regression Risk Rating
+            -runs logistic regression with Risk Rating (binned) as target
     helpers.py
             - Script with helper functions
             - Currently has:
