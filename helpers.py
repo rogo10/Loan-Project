@@ -58,40 +58,7 @@ def tts_scale(x, y, scaler, encoding=None, test_size=None, random_state=None):
         return x_train_s, x_test_s, y_train, y_test
 
 
-def n_splits(dataframe, num_splits, random_state=None):
-    '''
-    Takes in dataframe and creates n splits.
-    Will return list of n arrays with index values.
 
-    Parameters:
-    dataframe     ==>   Dataframe object.
-    num_splits    ==>   Integer value specifying number of splits of dataframe to take.
-    random_state  ==>   Seed for the random package to replicate splits if so desired.
-    '''
-    
-    if(type(dataframe) != type(pd.DataFrame())):
-        raise TypeError('Data must be in the form of a Pandas Dataframe.')
-        
-    if(type(num_splits)!= int):
-        raise TypeError('Number of splits must be an integer. Please check num_splits.')
-        
-    if(random_state != None):
-        if(type(random_state) != int):
-            raise ValueError('Random State must be an integer.')
-        else:
-            random.seed(random_state)
-            
-    indeces = [x for x in range(len(dataframe))]
-    num_per_split = int(len(dataframe)/num_splits)
-    split_indeces_list = []
-    
-    for split in range(num_splits):
-        list_by_split = random.sample(indeces,k=num_per_split)
-        for num in list_by_split:
-            indeces.remove(num)
-        split_indeces_list.append(list_by_split)
-        
-    return split_indeces_list
 
 
 
