@@ -55,4 +55,11 @@ Here is where we decsribe all of the files and its contents.
                     - Scales numeric data
                     - One hot encodes columns, if columns are given
                     - Returns a finalized x_train, x_test, y_train, and y_test
+          
+        Decision Tree has: 
+            - Decision Tree
+            - Decision Tree with Bagging 
+            - Random Forest
+            - Random Forest AdaBoost
+            - Linear Discriminant Analysis 
 
