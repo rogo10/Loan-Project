@@ -56,10 +56,14 @@ Here is where we decsribe all of the files and its contents.
                     - One hot encodes columns, if columns are given
                     - Returns a finalized x_train, x_test, y_train, and y_test
           
-        Decision Tree has: 
-            - Decision Tree
-            - Decision Tree with Bagging 
-            - Random Forest
-            - Random Forest AdaBoost
-            - Linear Discriminant Analysis 
-
+    Decision Tree has: 
+        - Decision Tree
+        - Decision Tree with Bagging 
+        - Random Forest
+        - Random Forest AdaBoost
+        - Linear Discriminant Analysis 
+    
+    Clustering of Credit Risk Code.ipynb
+        - Our version of calculating risk code using unsupervised methods
+        - Segments 10 risk code classes to 3
+        - KMeans model suggests significant updates
