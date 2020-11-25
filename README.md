@@ -70,3 +70,6 @@ Here is where we decsribe all of the files and its contents.
     
     anon_final.csv
         - Final version of anon.csv
+    
+    metrics_time_series.csv
+        - Metrics dataset altered for time series analysis
