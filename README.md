@@ -1,7 +1,7 @@
 # Loan-Project
     DSC 592 Final Project
-
-Here is where we decsribe all of the files and its contents.
+    
+    Stress Testing of anonymized bank loan data. We attempt to predict a number of features such as loan default, credit risk code, balance forecasts, and more 
 
     anon.xlsx
 
