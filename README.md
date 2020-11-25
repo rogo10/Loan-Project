@@ -67,3 +67,6 @@ Here is where we decsribe all of the files and its contents.
         - Our version of calculating risk code using unsupervised methods
         - Segments 10 risk code classes to 3
         - KMeans model suggests significant updates
+    
+    anon_final.csv
+        - Final version of anon.csv
