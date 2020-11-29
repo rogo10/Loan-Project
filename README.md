@@ -73,3 +73,9 @@
     
     metrics_time_series.csv
         - Metrics dataset altered for time series analysis
+        
+    Forecast Function.ipynb
+        - Contains helper function to complete general forecasting abilities
+            - Differencing for stationarity
+            - Train test split using Auto Arima
+            - Forecasting using Auto Arima
